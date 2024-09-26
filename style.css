@@ -1,0 +1,53 @@
+#main {
+    margin: 0px;
+    padding: 0px;
+    font-family: century;
+
+}
+ ul{float:left;
+ 	display: flex;
+ 	justify-content: center;
+ 	align-items: center;
+ 	
+ }
+ ul li{
+ 	list-style: none;
+ 	margin-left: 70px;
+ 	margin-bottom: 30px;
+ 	font-size:18px ;
+
+    
+ }
+ul li a{
+	color: white;
+	padding: 6px 20px ;
+	border: 1px solid transparent;
+	transition: 0.5 ease;
+}
+ul li a:hover{
+	color: blue;
+}
+
+body{ 
+   background-image:url("img/h1.jpe");
+   background-repeat: no-repeat;
+   background-position:center;
+   background-attachment: flex grow;
+   background-size: cover;
+   min-block-size:100% 50px;
+}
+
+h1{ padding:16px;
+	color: white;
+	font-size: revert;
+    position: center;
+
+ }
+p{ padding: 20px;
+	color: whitesmoke;
+	font-family:aria;
+}
+
+}
+
+
